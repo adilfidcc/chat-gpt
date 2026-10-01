@@ -1,0 +1,4 @@
+interface:
+  display_name: "Contrôle comptable FIDCC"
+  short_description: "Méthode FIDCC avec contrôles et preuves"
+  default_prompt: "Utilise $fidcc-controle-comptable sur les documents fournis."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fiscalité Maroc FIDCC"
+  short_description: "Méthode FIDCC avec contrôles et preuves"
+  default_prompt: "Utilise $fidcc-fiscalite-maroc sur les documents fournis."

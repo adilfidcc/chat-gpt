@@ -1,0 +1,4 @@
+interface:
+  display_name: "Documents professionnels FIDCC"
+  short_description: "Méthode FIDCC avec contrôles et preuves"
+  default_prompt: "Utilise $fidcc-documents sur les documents fournis."

@@ -14,3 +14,13 @@ npx skills@latest add mattpocock/skills --skill=<name>
 - **[writing-shape](./writing-shape/SKILL.md)**: Take a markdown file of raw material and shape it into an article paragraph by paragraph, arguing format choices at each step.
 - **[claude-handoff](./claude-handoff/SKILL.md)**: Hand the current conversation off to a fresh background agent that picks up the work immediately, seeded with a handoff summary via `claude --bg`. User-invoked.
 - **[setup-ts-deep-modules](./setup-ts-deep-modules/SKILL.md)**: Wire dependency-cruiser into a TypeScript repo so each package is a deep module: implementation hidden in subfolders, reachable only through its entry-point files, tests exercising it through those. User-invoked.
+
+## Prototypes FIDCC
+
+- **[fidcc-fiscalite-maroc](./fidcc-fiscalite-maroc/SKILL.md)**: Analyser une question fiscale marocaine et rédiger une note client sourcée.
+- **[fidcc-controle-comptable](./fidcc-controle-comptable/SKILL.md)**: Contrôler une balance ou un journal comptable marocain et proposer des corrections.
+- **[scan2sage-lecture-factures](./scan2sage-lecture-factures/SKILL.md)**: Extraire des factures multi-pages ou multi-documents et contrôler leurs montants.
+- **[fidcc-documents](./fidcc-documents/SKILL.md)**: Préparer des rapports Word PDF et tableaux Excel cohérents pour FIDCC.
+- **[fidcc-audit-contrats](./fidcc-audit-contrats/SKILL.md)**: Auditer un contrat commercial marocain du point de vue de la partie défendue.
+
+Ces prototypes sont exclus du plugin publié. Les charger explicitement dans un environnement compatible pour les évaluer.

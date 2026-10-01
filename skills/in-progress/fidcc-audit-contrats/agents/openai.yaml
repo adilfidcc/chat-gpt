@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit contrats FIDCC"
+  short_description: "Méthode FIDCC avec contrôles et preuves"
+  default_prompt: "Utilise $fidcc-audit-contrats sur les documents fournis."

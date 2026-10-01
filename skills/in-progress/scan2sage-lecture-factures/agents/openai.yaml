@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lecture factures Scan2Sage"
+  short_description: "Méthode FIDCC avec contrôles et preuves"
+  default_prompt: "Utilise $scan2sage-lecture-factures sur les documents fournis."

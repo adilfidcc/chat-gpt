@@ -59,3 +59,14 @@ The plugin is a managed, read-only bundle you subscribe to. skills.sh writes fil
 ## Not the install story
 
 `.claude-plugin/marketplace.json` makes the repo its own single-plugin marketplace (`/plugin marketplace add mattpocock/skills`, then `/plugin install mattpocock-skills@mattpocock`). The official listing supersedes it. It is kept as a fallback for installing the repo directly (an unreleased commit, or a fork), and is **not** documented to users.
+
+## Exception: prototypes FIDCC dans ce fork
+
+Les commandes amont restent celles des skills Matt Pocock. Pour les seuls prototypes FIDCC, utiliser la source `adilfidcc/chat-gpt` et la branche `fidcc/prompts-skills-rag` jusqu'à fusion. Commande à vérifier avec la version d'installateur retenue:
+
+```bash
+git clone --branch fidcc/prompts-skills-rag --single-branch https://github.com/adilfidcc/chat-gpt.git
+npx skills@latest add ./chat-gpt --skill=<nom-fidcc>
+```
+
+Si les chemins locaux ne sont pas disponibles dans l'installateur, charger manuellement le dossier du skill. Après fusion, utiliser la branche `main`. Cette exception ne publie pas les prototypes dans le plugin et ne garantit pas leur compatibilité avec chaque environnement.

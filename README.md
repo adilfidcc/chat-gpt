@@ -231,3 +231,7 @@ General workflow tools, not code-specific.
 
 - **[grilling](./skills/productivity/grilling/SKILL.md)**: Interview the user relentlessly about a plan, decision, or idea until every branch of the design tree is resolved. The reusable interview primitive behind `grill-me`, `grill-with-docs`, `triage`, `wayfinder` and `improve-codebase-architecture`.
 - **[writing-for-agents](./skills/productivity/writing-for-agents/SKILL.md)**: Writing documents for agents: skills, AGENTS.md/CLAUDE.md, and any doc an agent reaches by a pointer.
+
+## Extension FIDCC
+
+Cette copie propose des [prompts métier](./prompts/fidcc/README.md), une [conception RAG](./rag/README.md) et des [scénarios de validation](./evaluations/fidcc-cases.json). Les prototypes de skills suivent les règles du bucket in-progress; ils ne sont pas inclus dans le plugin publié. Aucun moteur RAG ou connecteur ChatGPT n'est installé par ces fichiers. Ne pas stocker de documents clients dans ce dépôt public.

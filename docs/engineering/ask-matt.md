@@ -18,7 +18,7 @@ You invoke this by typing `/ask-matt`; the agent won't reach for it on its own.
 
 ## Prerequisites
 
-The router names skills; it does not install them. Everything it points at has to be installed for the recommendation to be actionable, and it only knows the promoted skills in this repo.
+The router names skills; it does not install them. Everything it points at has to be installed for the recommendation to be actionable, and its main engineering flows cover the promoted skills. The FIDCC section also lists five experimental skills, available only when explicitly installed from this fork and invoked by the user.
 
 The tracker-dependent routes (triage, `to-spec`, `to-tickets`, `implement`) assume [setup-matt-pocock-skills](https://aihero.dev/skills-setup-matt-pocock-skills) has already configured an issue tracker in the repo. The router will happily recommend them before that has happened.
 
@@ -89,3 +89,7 @@ Check the changelog for a rename before assuming it is gone. `writing-great-skil
 `ask-matt` is a **standalone router** that sits over the whole set. It is never a step in a chain; it points into every chain, and it is the node the other docs pages link back to so none of them has to redraw the graph. From here you most often land on [grill-with-docs](https://aihero.dev/skills-grill-with-docs), the head of the main flow, or [triage](https://aihero.dev/skills-triage), the on-ramp for work that arrived rather than work you started.
 
 It is a [secondary source](https://www.aihero.dev/ai-coding-dictionary/secondary-source) over the skills it describes. Where the router and a `SKILL.md` disagree, the `SKILL.md` is right.
+
+## FIDCC prototypes in this fork
+
+The router also names five user-invoked prototypes: `fidcc-fiscalite-maroc`, `fidcc-controle-comptable`, `scan2sage-lecture-factures`, `fidcc-documents`, and `fidcc-audit-contrats`. They remain in `skills/in-progress/` and are excluded from the plugin manifest. A recommendation is not an installation or an invocation. See the bucket README for the fork-specific loading procedure. No RAG engine or ChatGPT connector is activated.

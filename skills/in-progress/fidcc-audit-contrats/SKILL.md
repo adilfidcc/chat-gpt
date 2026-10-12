@@ -1,13 +1,14 @@
 ---
 name: fidcc-audit-contrats
-description: "Auditer un contrat commercial marocain du point de vue de la partie défendue. Utiliser pour les demandes FIDCC correspondantes."
+description: "Auditer un contrat commercial marocain du point de vue de la partie défendue."
+disable-model-invocation: true
 ---
 
 # Audit contrats FIDCC
 
 1. Identifier partie défendue, objet, durée, prix, droit applicable et pièces annexes. Si la partie n'est pas indiquée, analyser les deux perspectives sans en choisir une silencieusement.
 2. Examiner obligations, réception, paiement, rupture, pénalités, assurance, responsabilité, sous-traitance, confidentialité et litiges.
-3. Vérifier toute affirmation juridique déterminante dans les textes officiels à jour; dater l'analyse. Ne pas déclarer une clause invalide sans fondement établi.
+3. Vérifier toute affirmation juridique déterminante dans les textes officiels applicables à la date du contrat et des faits; dater l'analyse, distinguer les évolutions ultérieures et signaler les sources inaccessibles. Ne pas déclarer une clause invalide sans fondement établi.
 4. Produire tableau clause/risque/conséquence/priorité, puis formulations de remplacement avec champs manquants visibles.
 5. Séparer risque commercial et règle juridique. Ne pas signer, envoyer ou modifier l'original sans instruction.
 

@@ -96,7 +96,7 @@ Off the main flow entirely.
 
 ## Prototypes métier FIDCC
 
-Ces prototypes sont dans `skills/in-progress/` et exclus du plugin publié. Orienter vers leur méthode lorsqu'ils sont explicitement chargés dans un environnement compatible:
+Ces prototypes sont dans `skills/in-progress/` et exclus du plugin publié. Ils sont invocables uniquement par l'utilisateur. Recommander leur nom et attendre l'invocation humaine; ne pas les appeler depuis le routeur. Ne les recommander comme disponibles que lorsqu'ils ont été explicitement chargés dans un environnement compatible:
 
 - `fidcc-fiscalite-maroc`: Analyser une question fiscale marocaine et rédiger une note client sourcée.
 - `fidcc-controle-comptable`: Contrôler une balance ou un journal comptable marocain et proposer des corrections.
@@ -104,4 +104,4 @@ Ces prototypes sont dans `skills/in-progress/` et exclus du plugin publié. Orie
 - `fidcc-documents`: Préparer des rapports Word PDF et tableaux Excel cohérents pour FIDCC.
 - `fidcc-audit-contrats`: Auditer un contrat commercial marocain du point de vue de la partie défendue.
 
-Voir `prompts/fidcc/README.md` pour les consignes à copier et `rag/README.md` pour la conception documentaire. Ne pas annoncer une installation ou une connexion RAG sur la seule présence de ces fichiers.
+Voir le README du bucket pour la procédure de chargement depuis ce fork. Voir `prompts/fidcc/README.md` pour les consignes à copier et `rag/README.md` pour la conception documentaire. Ne pas annoncer une installation ou une connexion RAG sur la seule présence de ces fichiers.

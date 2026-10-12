@@ -26,3 +26,7 @@ Choisir un petit corpus public et versionné. Préparer des questions avec réf�
 
 ## Suite nécessaire
 Choisir hébergement, fournisseur de modèles et droits d'accès; charger le corpus privé; tester; puis concevoir la connexion ChatGPT compatible. L'ajout de ces fichiers à GitHub n'active aucune recherche RAG.
+
+## Vérification future des droits
+
+Les droits proviennent de l'identité authentifiée et d'une politique serveur, jamais d'un client déclaré dans le prompt. Appliquer le filtrage aux candidats avant recherche et à nouveau avant restitution; séparer caches et journaux par périmètre d'accès. Une validité inconnue ne prouve pas l'applicabilité: signaler l'incertitude. Les scénarios RAG nécessitent un moteur instrumenté; une réponse textuelle ne prouve pas qu'un filtrage a eu lieu.

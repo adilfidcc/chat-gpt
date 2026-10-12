@@ -1,6 +1,7 @@
 ---
 name: fidcc-controle-comptable
-description: "Contrôler une balance ou un journal comptable marocain et proposer des corrections. Utiliser pour les demandes FIDCC correspondantes."
+description: "Contrôler une balance ou un journal comptable marocain et proposer des corrections."
+disable-model-invocation: true
 ---
 
 # Contrôle comptable FIDCC

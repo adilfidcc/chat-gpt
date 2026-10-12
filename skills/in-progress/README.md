@@ -23,4 +23,11 @@ npx skills@latest add mattpocock/skills --skill=<name>
 - **[fidcc-documents](./fidcc-documents/SKILL.md)**: Préparer des rapports Word PDF et tableaux Excel cohérents pour FIDCC.
 - **[fidcc-audit-contrats](./fidcc-audit-contrats/SKILL.md)**: Auditer un contrat commercial marocain du point de vue de la partie défendue.
 
-Ces prototypes sont exclus du plugin publié. Les charger explicitement dans un environnement compatible pour les évaluer.
+Ces prototypes sont exclus du plugin publié. Ils sont invocables uniquement par l'utilisateur. Pour FIDCC, la commande amont ci-dessus ne convient pas; utiliser la commande spécifique du fork définie dans `.agents/install-block.md`:
+
+```bash
+git clone --branch fidcc/prompts-skills-rag --single-branch https://github.com/adilfidcc/chat-gpt.git
+npx skills@latest add ./chat-gpt --skill=<nom-fidcc>
+```
+
+Vérifier la compatibilité de l'installateur avec les chemins locaux; sinon charger manuellement le dossier du skill dans l'environnement retenu. Cette procédure n'installe aucun moteur RAG.

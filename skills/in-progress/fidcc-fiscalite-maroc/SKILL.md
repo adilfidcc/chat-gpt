@@ -1,6 +1,7 @@
 ---
 name: fidcc-fiscalite-maroc
-description: "Analyser une question fiscale marocaine et rédiger une note client sourcée. Utiliser pour les demandes FIDCC correspondantes."
+description: "Analyser une question fiscale marocaine et rédiger une note client sourcée."
+disable-model-invocation: true
 ---
 
 # Fiscalité Maroc FIDCC

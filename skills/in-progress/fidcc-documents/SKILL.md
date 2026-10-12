@@ -1,6 +1,7 @@
 ---
 name: fidcc-documents
-description: "Préparer des rapports Word PDF et tableaux Excel cohérents pour FIDCC. Utiliser pour les demandes FIDCC correspondantes."
+description: "Préparer des rapports Word PDF et tableaux Excel cohérents pour FIDCC."
+disable-model-invocation: true
 ---
 
 # Documents professionnels FIDCC

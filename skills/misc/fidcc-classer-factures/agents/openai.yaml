@@ -1,0 +1,4 @@
+interface:
+  display_name: "Classement des factures FIDCC"
+  short_description: "Classer les factures et créer un index contrôlable"
+  default_prompt: "Utilise $fidcc-classer-factures sur les fichiers fournis et liste les points à vérifier."

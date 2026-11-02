@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyse des écarts FIDCC"
+  short_description: "Analyser les écarts entre périodes et budgets"
+  default_prompt: "Utilise $fidcc-analyser-ecarts sur les fichiers fournis et liste les points à vérifier."

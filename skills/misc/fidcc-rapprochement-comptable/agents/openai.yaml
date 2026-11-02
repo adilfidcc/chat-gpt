@@ -1,0 +1,14 @@
+interface:
+  display_name: Rapprochement comptable FIDCC
+  short_description: Rapprocher banque, grand livre et auxiliaires
+  default_prompt: Utilise $fidcc-rapprochement-comptable sur les fichiers fournis
+    et liste les points à vérifier.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

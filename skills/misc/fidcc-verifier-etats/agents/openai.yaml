@@ -1,0 +1,7 @@
+interface:
+  display_name: "Contrôle des états FIDCC"
+  short_description: "Vérifier les concordances des états comptables"
+  default_prompt: "Utilise $fidcc-verifier-etats sur les fichiers fournis et liste les points à vérifier."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,14 @@
+interface:
+  display_name: Reporting financier FIDCC
+  short_description: Préparer les états et synthèses financières
+  default_prompt: Utilise $fidcc-reporting-financier sur les fichiers fournis et liste
+    les points à vérifier.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

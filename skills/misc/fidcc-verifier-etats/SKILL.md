@@ -22,3 +22,5 @@ Statut : expérimental, ne pas utiliser comme validation autonome de comptes.
 Lire references/file_formats.md et references/verification_rules.md. Exécuter `python scripts/reconcile.py --help`. Adapter explicitement les colonnes et catégories attendues ; le moteur et ses libellés sont initialement chinois et emploient des flottants. Vérifier indépendamment les écarts proches du seuil avec Decimal avant conclusion.
 
 Lire references/upstream-skill.md pour la documentation originale. Préserver les fichiers sources et signaler les libellés non traduits. Produire une synthèse française et laisser les rapprochements ambigus en revue humaine.
+
+Limites connues du moteur : les options de sélection de feuille de la CLI ne sont pas transmises au lecteur ; préparer des fichiers avec la feuille utile en première position. Le statut global ne couvre pas tous les contrôles croisés : lire chaque détail et ne jamais traiter is_passed comme une certification.

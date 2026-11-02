@@ -1,0 +1,7 @@
+interface:
+  display_name: "Rapprochement expérimental FIDCC"
+  short_description: "Tester un rapprochement déterministe de fichiers"
+  default_prompt: "Utilise $fidcc-rapprochement-experimental sur les fichiers fournis et liste les points à vérifier."
+
+policy:
+  allow_implicit_invocation: false

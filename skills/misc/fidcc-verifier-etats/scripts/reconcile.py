@@ -68,7 +68,7 @@ def read_excel_file(
 ) -> pd.DataFrame:
     """读取 Excel 文件，自动处理编码和空值"""
     try:
-        df = pd.read_excel(filepath, sheet_name=sheet_name, header=header)
+        df = pd.read_excel(filepath, sheet_name=0 if sheet_name is None else sheet_name, header=header)
         # 清理列名：去除前后空格
         df.columns = df.columns.str.strip()
         return df

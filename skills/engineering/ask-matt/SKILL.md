@@ -93,3 +93,7 @@ Off the main flow entirely.
 ## Precondition
 
 **`/setup-matt-pocock-skills`**: run before your first engineering flow to configure the issue tracker, triage labels, and doc layout the other skills assume. Custom issue trackers also work.
+
+## FIDCC accounting workflows
+
+For accounting, invoice filing, financial reporting and close work, see the [FIDCC skills](../../misc/README.md#fidcc). The two specialized reconciliation engines are experimental and require explicit invocation. These standalone workflows are separate from the engineering flow.

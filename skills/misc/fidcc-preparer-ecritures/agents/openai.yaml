@@ -1,0 +1,14 @@
+interface:
+  display_name: Préparation des écritures FIDCC
+  short_description: Préparer et contrôler les écritures comptables
+  default_prompt: Utilise $fidcc-preparer-ecritures sur les fichiers fournis et liste
+    les points à vérifier.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

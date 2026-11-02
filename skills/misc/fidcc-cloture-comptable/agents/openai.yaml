@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clôture comptable FIDCC"
+  short_description: "Organiser la clôture et les pièces manquantes"
+  default_prompt: "Utilise $fidcc-cloture-comptable sur les fichiers fournis et liste les points à vérifier."

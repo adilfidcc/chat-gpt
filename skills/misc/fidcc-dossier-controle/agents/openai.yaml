@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dossier de contrôle FIDCC"
+  short_description: "Documenter les contrôles et les anomalies"
+  default_prompt: "Utilise $fidcc-dossier-controle sur les fichiers fournis et liste les points à vérifier."
